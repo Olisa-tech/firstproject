@@ -9,6 +9,10 @@
 
 body{
     font-family: 'Inter', sans-serif;
+    max-width: 1500px;
+    margin: 0 auto;
+
+
 }
 /* page resets ends here */
 
@@ -17,7 +21,8 @@ header{
     background-image:var(--gradient), url("./images/header.jpg");
     background-size: cover;
     /* border: 3px solid tomato; */
-    /* height: 450px; */
+    height: 350px;
+    position: relative;
     
 }
 
@@ -85,6 +90,98 @@ header{
         
 }
 
-
-
 /* Header  section ends here */
+
+
+
+
+/* second section begins here */
+
+.second-section-container{
+    /* border: 2px solid tomato; */
+    padding: 20px;
+
+}
+
+.content{
+    /* border: 2px solid green; */
+    width: 30%;
+    padding: 25px;
+    background: tomato;
+    color: white;
+    border-radius: 25px;
+}
+.content h3{
+    font-size: 25px;
+    line-height: 1.5;
+}
+.content h4{
+    font-size: 23px;
+}
+.content p{
+    padding: 10px 0;
+    font-size: 14px;
+    padding-bottom: 35px;
+    line-height: 1.5;
+}
+    
+.content-holder{
+    /* border: 2px solid black;  */
+    padding: 10px 0;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.btn{
+    padding: 7px 13px;
+    border: none;
+    border-radius: 30px;
+    background: tomato;
+    color: white;
+    font-size: 10px;
+}
+
+.btn-white{
+    background: white;
+    color: tomato;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+/* second section ends here */
+
+
+/* cta section begins here */
+
+.cta-section{
+    /* border: 2px solid black; */
+    background: tomato;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+ .logo-holder{
+    padding-top: 25px;
+    color: white;
+ }
+/* cta section ends ends here */
+
+/* footer section begins here */
+
+footer{
+    border: 2px solid blue;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+footer h2{
+    font-size: 18px;
+}
+
+/* footer section ends here */
