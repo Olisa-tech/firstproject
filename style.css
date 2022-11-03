@@ -18,76 +18,81 @@ body{
 
 /* Header  section begins here */
 header{
-    background-image:var(--gradient), url("./images/header.jpg");
-    background-size: cover;
-    /* border: 3px solid tomato; */
-    height: 350px;
+    border: 3px solid tomato;
+    height: 600px;
+    background: url(./images/image-header.jpg);
+    color: white;
+    padding: 30px;
     position: relative;
-    
 }
 
 .nav-desktop{
-    justify-content: space-between;
-    /* border: 3px solid black; */
-    display: flex;
-    color: white;
-    
-}
-.leftside-ex{
-    margin: 0 60px;
-    /* border: 3px solid tomato; */
-    display: flex;
-    padding: 15px 20px;
-}
-    .headerbanner-section{
-        /* border: 3px solid green; */
-        padding: 50px;
-        /* height: 750px; */
-        min-height: 450px;
+        /* border: 3px solid blue; */
         display: flex;
-        justify-content: flex-end;
-        
-    }
-
-    .headerbanner-content{
-        /* border: 3px solid purple; */
-        height: 100%;
-        width: 50%;
-        /* margin: 90px; */
-        color: white;
-        /* padding-left: 500px; */
-    }
-
-    .headerbanner-content button{
-        margin-top: 20px;
-        border-radius: 25px;
-        border: 2px solid tomato;
-        padding: 5px;
-        background-color: tomato;
-        color: white;
-        padding: 5px 20px;
-    }
-    .headerbanner-content h2 {
-        /* padding-top: 50px; */
-        margin-bottom: 40px;
-        
-        
-    }
-    
-.rightlinks ul {
-    /* border: 3px solid red; */
-    display: flex;
-    flex-direction: row;
-    list-style: none;
+        justify-content: space-between;
+}
+.desktop-logo{
+    /* border: 2px solid tomato;  */
     color: white;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    padding-left: 40px;
+}
+.desktop-linkholder{
+        /* border: 3px solid brown; */
+        display: flex;
+        width: 40%;
+}
+
+.desktop-linkholder ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    /* border: 3px solid purple; */
+    width: 100%;
+    justify-content: space-evenly;
+    padding-right: 40px;
     
 }
-.rightlinks ul a{
+
+.desktop-linkholder ul a{
     text-decoration: none;
-    padding: 15px 20px;
-    display: block;
     color: white;
-        
+}
+.header-banner{
+    /* border: 2px solid yellow; */
+    width: 30%;
+    padding: 40px 0;
+    margin-left: auto;
+    margin-right: 40px;
+    margin-top: 50px;
+}
+.header-banner h4 {
+    font-size: 23px;
+    padding: 15px 0;
+}
+
+.header-banner p {
+    width: 80%;
+    font-size: 18px;
+    padding: 15px 0;
+    line-height: 142%;
+}
+.btn{
+    padding: 7px 13px;
+    border: none;
+    border-radius: 30px;
+    background: tomato;
+    color: white;
+    font-size: 10px;
+}
+
+.btn-white{
+    background: white;
+    color: tomato;
+    font-size: 18px;
+    margin-top: 20px;
 }
 
 /* Header  section ends here */
@@ -134,21 +139,7 @@ header{
     justify-content: space-evenly;
     margin-bottom: 30px;
 }
-.btn{
-    padding: 7px 13px;
-    border: none;
-    border-radius: 30px;
-    background: tomato;
-    color: white;
-    font-size: 10px;
-}
 
-.btn-white{
-    background: white;
-    color: tomato;
-    font-size: 18px;
-    margin-top: 20px;
-}
 
 
 /* second section ends here */
@@ -172,7 +163,7 @@ header{
 /* footer section begins here */
 
 footer{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     background: black;
     color: white;
     display: flex;
@@ -182,6 +173,11 @@ footer{
 
 footer h2{
     font-size: 18px;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: white;
 }
 
 /* footer section ends here */
