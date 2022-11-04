@@ -236,7 +236,7 @@ header{
 }
 
 .content{
-    /* border: 2px solid blue; */
+    /* border: 2px solid pink; */
     width: 30%;
     padding: 25px;
     background: tomato;
@@ -276,6 +276,7 @@ header{
     color: white;
 }
 /* Cta section ends here */
+
 
 
 /* footer section begins here */

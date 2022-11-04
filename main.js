@@ -1,8 +1,4 @@
 
-
-
-// es 5
-
 // console.log("it is for garri")
 
 // var writeup = "who dey zazu"
