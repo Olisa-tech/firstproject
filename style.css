@@ -16,14 +16,73 @@ body{
 }
 /* page resets ends here */
 
-/* Header  section begins here */
-header{
+/* Mobile nav section */
+.nav-mobile{
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    align-items: center;
+    display: none;
+    background: tomato;
+    color: white;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.mobile-logo{
     border: 3px solid tomato;
-    height: 600px;
-    background: url(./images/image-header.jpg);
+    background: tomato;
+    display: flex;
+    color: white;
+    align-items: center;
+
+}
+
+.mobile-logo span{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+.hamburger{
+    border: 3px solid black;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile-links-holder{
+    border: 3px solid black; 
+    transform: translateX(200%);
+    position: fixed;
+    right: 0;
+    top: 50px;
+    width: 100%;
+    background: tomato;
+    transition: all 0.9s ease;
+}
+
+.mobile-links-holder ul{
+    list-style: none;
+}
+
+
+/* Header  section begins here */
+
+header{
+    /* border: 3px solid tomato; */
+    /* height: 600px; */
+    width: auto;
+    background-image: url(./images/image-header.jpg);
     color: white;
     padding: 30px;
-    position: relative;
+    
+    
 }
 
 .nav-desktop{

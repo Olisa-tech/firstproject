@@ -5,14 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Firstproject</title>
-    <link rel="stylesheet" href="./default.css">
     <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="./default.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./mobile.css">
 </head>
 <body>
+
+    <!-- mobile nav section -->
     <!--Header section begins here  -->
     <header>
-       <nav class="nav-desktop">
+        <nav class="nav-mobile">
+            <div class="mobile-logo">
+            <span>EXPLORER</span>
+            </div>
+            <div class="hamburger" onclick="codedtunez()">
+            <div class="menu"></div>
+            </div>
+            <div class="mobile-links-holder">
+                <ul>
+                    <li><a href="#" class="mobile-active-link">HOME</a></li>
+                    <li><a href="#aboutus"> ABOUT</a></li>
+                    <li><a href="#explorefoods">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+       <nav class="nav-desktop"> 
         <div class="desktop-logo">
             <h2>EXPLORER</h2>
         </div>
@@ -21,20 +39,16 @@
                 <li><a href="">HOME</a></li>
                 <li><a href="">ABOUT</a></li>
                 <li><a href="">CONTACT</a></li>
-                
-            </ul>
+             </ul>
 
         </div>
        </nav>
        <div class="header-banner">
         <h4>EXPLORE THE WORLD</h4>
-        
+
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo rem molestias, itaque molestiae atque veniam consequuntur odit ad, totam quas dolorum dolore quis repudiandae vero minus nulla alias. Facilis, totam?</p>
         <button class="btn"> Learn more <i class="fa-solid fa-arrow-right"></i></button>
        </div>
-            
-        
-        
     </header>
 
     <!--Header section ends here -->
